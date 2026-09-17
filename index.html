@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÀṢẸ — Modern Nigerian Kitchen</title>
+    <meta name="description" content="ÀṢẸ is a modern Nigerian kitchen in Lagos, serving the classics we grew up with — from proper amala and smoky ofada to food straight from the grill.">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+    <nav class="nav container">
+        <a href="#home" class="logo">ÀṢẸ</a>
+
+        <div class="nav-links">
+            <a href="#home" data-section="home">Home</a>
+            <a href="#plates" data-section="plates">Menu</a>
+            <a href="#story" data-section="story">Our Story</a>
+            <a href="#visit" data-section="visit">Visit</a>
+        </div>
+
+        <a href="#plates" class="nav-button">
+            <span>Explore Menu</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu">
+        <div class="mobile-menu-top">
+            <span class="mobile-menu-label">MENU</span>
+            <button class="menu-close" type="button" aria-label="Close menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <div class="mobile-menu-links">
+            <a href="#home"><span>01</span>Home</a>
+            <a href="#plates"><span>02</span>Menu</a>
+            <a href="#story"><span>03</span>Our Story</a>
+            <a href="#visit"><span>04</span>Visit</a>
+        </div>
+
+        <div class="mobile-menu-footer">
+            <p>Lagos, Nigeria</p>
+            <p>Nigerian food.<br>Modern perspective.</p>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-image">
+            <img src="images/hero-food.jpeg" alt="A beautifully plated Nigerian meal">
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+            <div class="hero-top">
+                <p class="eyebrow">LAGOS · NIGERIA</p>
+            </div>
+
+            <div class="hero-main">
+                <p class="hero-label">MODERN NIGERIAN KITCHEN</p>
+                <h1>Amala.<br>As it should be.</h1>
+
+                <div class="hero-bottom">
+                    <p class="hero-description">
+                        The Nigerian food you know, made with care and served with a fresh point of view.
+                    </p>
+                    <a href="#plates" class="hero-button">
+                        <span>Explore the menu</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-meta">
+                <div class="hero-people" aria-label="Guests of ÀṢẸ">
+                    <div class="hero-avatar"><img src="images/food-amala.jpeg" alt=""></div>
+                    <div class="hero-avatar"><img src="images/food-ofada.jpeg" alt=""></div>
+                    <div class="hero-avatar"><img src="images/food-grill.jpeg" alt=""></div>
+                    <div class="hero-avatar"><img src="images/food-fish.jpeg" alt=""></div>
+                    <div class="hero-avatar"><img src="images/food-chef.jpeg" alt=""></div>
+                </div>
+                <div class="hero-rating">
+                    <div class="hero-stars" aria-label="Five star rating">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p>Loved by Lagos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOD -->
+    <section class="food-section" id="food">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">THE FOOD</p>
+                <h2>The classics. Done properly.</h2>
+                <p class="section-intro">
+                    The plates we grew up with, made the way they should be — generous, familiar and full of flavour.
+                </p>
+            </div>
+
+            <div class="food-grid">
+                <article class="food-card">
+                    <div class="food-card-image">
+                        <img src="images/food-amala.jpeg" alt="Amala served with ewedu, gbegiri and assorted meat">
+                    </div>
+                    <div class="food-card-content">
+                        <div class="food-card-text">
+                            <h3>Amala</h3>
+                            <p>Soft amala, rich soups and the kind of plate you don't rush.</p>
+                        </div>
+                        <a href="#plates" class="food-card-link" data-menu-target="Amala Plate">
+                            <span>See the plates</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-card-image">
+                        <img src="images/food-ofada.jpeg" alt="Ofada rice served with ayamase and assorted meat">
+                    </div>
+                    <div class="food-card-content">
+                        <div class="food-card-text">
+                            <h3>Ofada</h3>
+                            <p>Local rice, smoky ayamase and all the good stuff around it.</p>
+                        </div>
+                        <a href="#plates" class="food-card-link" data-menu-target="Ofada Plate">
+                            <span>See the plates</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <div class="food-card-image">
+                        <img src="images/food-grill.jpeg" alt="Nigerian grilled meat and suya platter">
+                    </div>
+                    <div class="food-card-content">
+                        <div class="food-card-text">
+                            <h3>The Grill</h3>
+                            <p>Smoky, charred and straight from the fire.</p>
+                        </div>
+                        <a href="#plates" class="food-card-link" data-menu-target="The Grill">
+                            <span>See the plates</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SIGNATURE PLATES -->
+    <section class="signature-section" id="plates">
+        <div class="container">
+            <div class="signature-heading">
+                <div>
+                    <p class="eyebrow">SIGNATURE PLATES</p>
+                    <h2>Come hungry.<br>Leave thinking<br>about it.</h2>
+                </div>
+                <p class="signature-intro">A closer look at the plates coming out of our kitchen.</p>
+            </div>
+
+            <div class="food-gallery" id="foodGallery">
+                <div class="gallery-center"><span>ÀṢẸ</span></div>
+
+                <button class="gallery-card gallery-card-one" type="button" aria-label="View Amala">
+                    <img src="images/food-amala.jpeg" alt="Amala">
+                </button>
+                <button class="gallery-card gallery-card-two" type="button" aria-label="View Ofada">
+                    <img src="images/food-ofada.jpeg" alt="Ofada">
+                </button>
+                <button class="gallery-card gallery-card-three" type="button" aria-label="View The Grill">
+                    <img src="images/food-grill.jpeg" alt="The Grill">
+                </button>
+                <button class="gallery-card gallery-card-four" type="button" aria-label="View Suya">
+                    <img src="images/hero-food.jpeg" alt="Suya">
+                </button>
+                <button class="gallery-card gallery-card-five" type="button" aria-label="View Grilled Fish">
+                    <img src="images/food-grill.jpeg" alt="Grilled Fish">
+                </button>
+                <button class="gallery-card gallery-card-six" type="button" aria-label="View Chef's Plate">
+                    <img src="images/food-amala.jpeg" alt="Chef's Plate">
+                </button>
+            </div>
+
+            <div class="signature-footer">
+                <p>Nigerian food. Nothing overcomplicated.</p>
+                <button class="signature-menu-button" id="menuToggle" type="button" aria-expanded="false" aria-controls="menuPanel">
+                    <span>View the menu</span>
+                    <span class="menu-button-icon" aria-hidden="true">+</span>
+                </button>
+            </div>
+
+            <!-- MENU PANEL -->
+            <div class="menu-panel" id="menuPanel" aria-hidden="true">
+                <div class="menu-panel-header">
+                    <div>
+                        <p class="eyebrow">THE MENU</p>
+                        <h3>Proper food.<br>No unnecessary fuss.</h3>
+                    </div>
+                    <p class="menu-panel-note">A few favourites from the kitchen.</p>
+                </div>
+
+                <div class="menu-list">
+                    <article class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/food-amala.jpeg" alt="Amala Plate">
+                        </div>
+                        <div class="menu-item-content">
+                            <div>
+                                <p class="menu-item-category">CLASSIC</p>
+                                <h4>Amala Plate</h4>
+                                <p>Soft amala with ewedu, gbegiri and assorted meat.</p>
+                            </div>
+                            <strong>From ₦4,500</strong>
+                        </div>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/food-ofada.jpeg" alt="Ofada Plate">
+                        </div>
+                        <div class="menu-item-content">
+                            <div>
+                                <p class="menu-item-category">LOCAL FAVOURITE</p>
+                                <h4>Ofada Plate</h4>
+                                <p>Local rice with smoky ayamase and assorted meat.</p>
+                            </div>
+                            <strong>From ₦5,000</strong>
+                        </div>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/food-grill.jpeg" alt="The Grill">
+                        </div>
+                        <div class="menu-item-content">
+                            <div>
+                                <p class="menu-item-category">FROM THE FIRE</p>
+                                <h4>The Grill</h4>
+                                <p>Charred meats, grilled chicken and smoky house seasoning.</p>
+                            </div>
+                            <strong>From ₦6,500</strong>
+                        </div>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/food-grill.jpeg" alt="Whole Grilled Fish">
+                        </div>
+                        <div class="menu-item-content">
+                            <div>
+                                <p class="menu-item-category">FROM THE GRILL</p>
+                                <h4>Whole Grilled Fish</h4>
+                                <p>Whole fish grilled over fire and finished with pepper.</p>
+                            </div>
+                            <strong>Market price</strong>
+                        </div>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/food-grill.jpeg" alt="Asun">
+                        </div>
+                        <div class="menu-item-content">
+                            <div>
+                                <p class="menu-item-category">FROM THE FIRE</p>
+                                <h4>Asun</h4>
+                                <p>Smoky diced goat meat tossed with peppers and onions.</p>
+                            </div>
+                            <strong>From ₦5,500</strong>
+                        </div>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/hero-food.jpeg" alt="Suya">
+                        </div>
+                        <div class="menu-item-content">
+                            <div>
+                                <p class="menu-item-category">FROM THE FIRE</p>
+                                <h4>Suya</h4>
+                                <p>Charred skewers finished with house yaji spice.</p>
+                            </div>
+                            <strong>From ₦4,500</strong>
+                        </div>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/food-ofada.jpeg" alt="Party Jollof">
+                        </div>
+                        <div class="menu-item-content">
+                            <div>
+                                <p class="menu-item-category">THE CLASSICS</p>
+                                <h4>Party Jollof</h4>
+                                <p>Smoky tomato rice served with your choice of protein.</p>
+                            </div>
+                            <strong>From ₦4,500</strong>
+                        </div>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/food-grill.jpeg" alt="Peppered Snails">
+                        </div>
+                        <div class="menu-item-content">
+                            <div>
+                                <p class="menu-item-category">SMALL PLATES</p>
+                                <h4>Peppered Snails</h4>
+                                <p>Tender snails tossed in hot pepper and onion sauce.</p>
+                            </div>
+                            <strong>From ₦6,000</strong>
+                        </div>
+                    </article>
+
+                    <article class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/food-amala.jpeg" alt="Fried Plantain">
+                        </div>
+                        <div class="menu-item-content">
+                            <div>
+                                <p class="menu-item-category">ON THE SIDE</p>
+                                <h4>Fried Plantain</h4>
+                                <p>Golden, sweet and crisp around the edges.</p>
+                            </div>
+                            <strong>From ₦1,500</strong>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="menu-order-cta">
+                    <div class="menu-order-copy">
+                        <p class="eyebrow">READY TO EAT?</p>
+                        <h3>Build your order.</h3>
+                        <p>Choose your meal, add what you want, then decide how you'd like to receive it.</p>
+                    </div>
+                    <button class="place-order-button" id="openOrderModal" type="button">
+                        <span>Place an order</span>
+                        <span aria-hidden="true">↗</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         ORDER MODAL (FULL)
+    ========================== -->
+    <div class="order-modal" id="orderModal" aria-hidden="true">
+        <div class="order-modal-overlay" id="orderModalOverlay"></div>
+
+        <div class="order-modal-card" role="dialog" aria-modal="true" aria-labelledby="orderModalTitle">
+            <div class="order-modal-header">
+                <div>
+                    <p class="eyebrow">BUILD YOUR ORDER</p>
+                    <h2 id="orderModalTitle">What are you having?</h2>
+                </div>
+                <button class="order-modal-close" id="closeOrderModal" type="button" aria-label="Close order">×</button>
+            </div>
+
+            <!-- STEP 1 -->
+            <div class="order-step-panel active" data-step="1">
+                <div class="order-step-intro">
+                    <span class="order-step-number">01</span>
+                    <div>
+                        <p>CHOOSE YOUR MEAL</p>
+                        <span>Start with your main plate.</span>
+                    </div>
+                </div>
+
+                <div class="order-choice-list">
+                    <button class="meal-choice" type="button" data-meal="Amala Plate" data-price="4500">
+                        <span>
+                            <strong>Amala Plate</strong>
+                            <small>Amala, ewedu, gbegiri & assorted meat</small>
+                        </span>
+                        <b>₦4,500</b>
+                    </button>
+
+                    <button class="meal-choice" type="button" data-meal="Ofada Plate" data-price="5000">
+                        <span>
+                            <strong>Ofada Plate</strong>
+                            <small>Ofada rice, ayamase & assorted meat</small>
+                        </span>
+                        <b>₦5,000</b>
+                    </button>
+
+                    <button class="meal-choice" type="button" data-meal="Party Jollof" data-price="4500">
+                        <span>
+                            <strong>Party Jollof</strong>
+                            <small>Smoky jollof rice with protein</small>
+                        </span>
+                        <b>₦4,500</b>
+                    </button>
+
+                    <button class="meal-choice" type="button" data-meal="The Grill" data-price="6500">
+                        <span>
+                            <strong>The Grill</strong>
+                            <small>Charred meats & smoky seasoning</small>
+                        </span>
+                        <b>₦6,500</b>
+                    </button>
+                </div>
+
+                <button class="order-next-button" id="mealNext" type="button" disabled>
+                    <span>Continue</span>
+                    <span>→</span>
+                </button>
+            </div>
+
+            <!-- STEP 2 -->
+            <div class="order-step-panel" data-step="2">
+                <button class="order-back-button" type="button" data-back="1">← Back</button>
+
+                <div class="order-section">
+                    <div class="order-section-heading">
+                        <div>
+                            <span class="order-step-number">02</span>
+                            <div>
+                                <p>PROTEIN</p>
+                                <span>Add your protein.</span>
+                            </div>
+                        </div>
+                        <span class="optional-label">OPTIONAL</span>
+                    </div>
+
+                    <div class="quantity-list">
+                        <div class="quantity-option" data-type="protein" data-name="Beef" data-price="1000">
+                            <div>
+                                <strong>Beef</strong>
+                                <small>Seasoned & slow-cooked</small>
+                            </div>
+                            <div class="quantity-control">
+                                <button type="button" class="quantity-minus">−</button>
+                                <span class="quantity-value">0</span>
+                                <button type="button" class="quantity-plus">+</button>
+                            </div>
+                        </div>
+
+                        <div class="quantity-option" data-type="protein" data-name="Chicken" data-price="1200">
+                            <div>
+                                <strong>Chicken</strong>
+                                <small>Grilled over open fire</small>
+                            </div>
+                            <div class="quantity-control">
+                                <button type="button" class="quantity-minus">−</button>
+                                <span class="quantity-value">0</span>
+                                <button type="button" class="quantity-plus">+</button>
+                            </div>
+                        </div>
+
+                        <div class="quantity-option" data-type="protein" data-name="Asun" data-price="1500">
+                            <div>
+                                <strong>Asun</strong>
+                                <small>Smoky, peppered & spicy</small>
+                            </div>
+                            <div class="quantity-control">
+                                <button type="button" class="quantity-minus">−</button>
+                                <span class="quantity-value">0</span>
+                                <button type="button" class="quantity-plus">+</button>
+                            </div>
+                        </div>
+
+                        <div class="quantity-option" data-type="protein" data-name="Grilled Fish" data-price="2500">
+                            <div>
+                                <strong>Grilled Fish</strong>
+                                <small>Whole fish finished with pepper</small>
+                            </div>
+                            <div class="quantity-control">
+                                <button type="button" class="quantity-minus">−</button>
+                                <span class="quantity-value">0</span>
+                                <button type="button" class="quantity-plus">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-section">
+                    <div class="order-section-heading">
+                        <div>
+                            <span class="order-step-number">03</span>
+                            <div>
+                                <p>EXTRAS</p>
+                                <span>Add sides if you want.</span>
+                            </div>
+                        </div>
+                        <span class="optional-label">OPTIONAL</span>
+                    </div>
+
+                    <div class="quantity-list">
+                        <div class="quantity-option" data-type="extra" data-name="Fried Plantain" data-price="1000">
+                            <div>
+                                <strong>Fried Plantain</strong>
+                                <small>Sweet, golden & crisp</small>
+                            </div>
+                            <div class="quantity-control">
+                                <button type="button" class="quantity-minus">−</button>
+                                <span class="quantity-value">0</span>
+                                <button type="button" class="quantity-plus">+</button>
+                            </div>
+                        </div>
+
+                        <div class="quantity-option" data-type="extra" data-name="Peppered Snails" data-price="2000">
+                            <div>
+                                <strong>Peppered Snails</strong>
+                                <small>Spicy house pepper sauce</small>
+                            </div>
+                            <div class="quantity-control">
+                                <button type="button" class="quantity-minus">−</button>
+                                <span class="quantity-value">0</span>
+                                <button type="button" class="quantity-plus">+</button>
+                            </div>
+                        </div>
+
+                        <div class="quantity-option" data-type="extra" data-name="Extra Rice" data-price="1000">
+                            <div>
+                                <strong>Extra Rice</strong>
+                                <small>One extra portion</small>
+                            </div>
+                            <div class="quantity-control">
+                                <button type="button" class="quantity-minus">−</button>
+                                <span class="quantity-value">0</span>
+                                <button type="button" class="quantity-plus">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-modal-summary">
+                    <div>
+                        <span>YOUR ORDER</span>
+                        <strong id="modalOrderTotal">₦0</strong>
+                    </div>
+                    <div class="modal-summary-items" id="modalSummaryItems">
+                        <p>Choose your meal to begin.</p>
+                    </div>
+                </div>
+
+                <button class="order-next-button" id="proteinNext" type="button" disabled>
+                    <span>Continue to fulfilment</span>
+                    <span>→</span>
+                </button>
+            </div>
+
+            <!-- STEP 3 -->
+            <div class="order-step-panel" data-step="3">
+                <button class="order-back-button" type="button" data-back="2">← Back</button>
+
+                <div class="order-step-intro">
+                    <span class="order-step-number">04</span>
+                    <div>
+                        <p>FULFILMENT</p>
+                        <span>How would you like to receive it?</span>
+                    </div>
+                </div>
+
+                <div class="fulfilment-options">
+                    <button class="fulfilment-option" type="button" data-method="Delivery">
+                        <span class="fulfilment-icon">↗</span>
+                        <span>
+                            <strong>Delivery</strong>
+                            <small>Bring it to my door</small>
+                        </span>
+                        <span>→</span>
+                    </button>
+
+                    <button class="fulfilment-option" type="button" data-method="Pickup">
+                        <span class="fulfilment-icon">□</span>
+                        <span>
+                            <strong>Pickup</strong>
+                            <small>I'll pick it up at ÀṢẸ</small>
+                        </span>
+                        <span>→</span>
+                    </button>
+
+                    <button class="fulfilment-option" type="button" data-method="Dine-in">
+                        <span class="fulfilment-icon">+</span>
+                        <span>
+                            <strong>Dine with us</strong>
+                            <small>Reserve a table at ÀṢẸ</small>
+                        </span>
+                        <span>→</span>
+                    </button>
+                </div>
+
+                <div class="final-order-summary">
+                    <div>
+                        <span>TOTAL</span>
+                        <strong id="finalOrderTotal">₦0</strong>
+                    </div>
+                    <div id="finalOrderDetails"></div>
+                </div>
+
+                <button class="place-final-order" id="placeFinalOrder" type="button" disabled>
+                    <span>Place order</span>
+                    <span>↗</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- STORY -->
+    <section class="story-section" id="story">
+        <div class="container story-grid">
+            <div class="story-image">
+                <img src="images/story-chef.jpeg" alt="A Nigerian chef preparing food">
+            </div>
+            <div class="story-content">
+                <p class="eyebrow">OUR STORY</p>
+                <h2>Born in Lagos.<br>Built around the food<br>we grew up with.</h2>
+                <div class="story-copy">
+                    <p>ÀṢẸ is a modern Nigerian kitchen built around the flavours we know, the plates we grew up eating, and the joy of sharing good food.</p>
+                    <p>Nothing too precious. Nothing stripped of its roots. Just proper Nigerian food, made with care and served the way we like it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VISIT -->
+    <section class="visit-section" id="visit">
+        <div class="visit-glow"></div>
+        <div class="container visit-inner">
+            <div class="visit-copy">
+                <p class="eyebrow">COME THROUGH</p>
+                <h2>Your table<br>is waiting.</h2>
+                <p class="visit-intro">Come hungry. Leave full. Come back for more.</p>
+            </div>
+            <div class="visit-details">
+                <div class="visit-location">
+                    <span class="visit-label">FIND US</span>
+                    <p>14 Akin Adesola Street<br>Victoria Island, Lagos</p>
+                    <a href="#" class="visit-action" target="_blank" rel="noopener">
+                        <span class="visit-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z"/><circle cx="12" cy="9" r="2.2"/></svg>
+                        </span>
+                        <span>Open map</span>
+                    </a>
+                </div>
+                <div class="visit-info">
+                    <div class="visit-info-row">
+                        <span>OPENING HOURS</span>
+                        <p>Monday — Sunday<br>10:00 AM — 10:00 PM</p>
+                    </div>
+                    <div class="visit-info-row">
+                        <span>RESERVATIONS</span>
+                        <p>Walk-ins welcome.<br>Reservations recommended.</p>
+                    </div>
+                    <div class="visit-info-row">
+                        <span>GET IN TOUCH</span>
+                        <a href="#" class="visit-whatsapp">
+                            <span class="visit-icon whatsapp-icon">
+                                <svg viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.8 7.1L4 20l1.5-4A8 8 0 1 1 20 11.5Z"/><path d="M9 8.5c.2-.4.5-.5.8-.5h.4c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.6.7c.6 1.1 1.5 2 2.6 2.6l.7-.6c.2-.2.4-.2.6-.1l1.6.7c.3.1.4.3.4.5v.4c0 .3-.1.6-.5.8-.5.3-1.2.3-1.8.1-1.2-.4-2.6-1.2-3.7-2.3-1.1-1.1-1.9-2.5-2.3-3.7-.2-.6-.2-1.3.1-1.8Z"/></svg>
+                            </span>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="visit-corner-image" aria-hidden="true">
+            <img src="images/hero-food.jpeg" alt="">
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">ÀṢẸ</a>
+                    <p class="footer-tagline">Nigerian food.<br>Modern perspective.</p>
+                </div>
+                <nav class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#plates">Menu</a>
+                    <a href="#story">Our Story</a>
+                    <a href="#visit">Visit</a>
+                </nav>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram" class="social-icon">
+                        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="social-dot"/></svg>
+                    </a>
+                    <a href="#" aria-label="WhatsApp" class="social-icon">
+                        <svg viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.8 7.1L4 20l1.5-4A8 8 0 1 1 20 11.5Z"/><path d="M9 8.5c.2-.4.5-.5.8-.5h.4c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.6.7c.6 1.1 1.5 2 2.6 2.6l.7-.6c.2-.2.4-.2.6-.1l1.6.7c.3.1.4.3.4.5v.4c0 .3-.1.6-.5.8-.5.3-1.2.3-1.8.1-1.2-.4-2.6-1.2-3.7-2.3-1.1-1.1-1.9-2.5-2.3-3.7-.2-.6-.2-1.3.1-1.8Z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Lagos, Nigeria</p>
+                <p class="copyright">© 2026 ÀṢẸ Kitchen. All rights reserved.</p>
+                <a href="#home" class="footer-top-link">Back to top</a>
+            </div>
+        </div>
+    </footer>
+
+</main>
+
+<script src="index.js"></script>
+</body>
+</html>
